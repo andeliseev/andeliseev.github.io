@@ -8,7 +8,3 @@ The website at <https://andeliseev.github.io/>: the home pages, privacy policies
 | `torrstream-lite/` | [TorrStream Lite](https://github.com/andeliseev/TorrStreamLite) | <https://andeliseev.github.io/torrstream-lite/> |
 
 To publish a change, commit it and push `main`. GitHub Pages updates the site within a minute or two.
-
-`google6ae5c2a97f179509.html` proves to Google Search Console that this domain is mine, for Unified Mail's Google sign-in. It stays at the root, unchanged.
-
-Until November 2026 these pages lived in the unified-mail repository's `site/` folder and were copied here with `git subtree`. This repository has their whole history.
