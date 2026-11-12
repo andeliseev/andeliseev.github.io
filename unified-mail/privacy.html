@@ -25,15 +25,18 @@
       Gmail account (permission <code>https://mail.google.com/</code>). The app uses this access only to:
     </p>
     <ul>
-      <li>show the messages in your Inbox, All Mail and Trash: sender, recipients, subject, date, preview and content;</li>
+      <li>show the messages in your Inbox, Sent, Drafts, All Mail and Trash: sender, recipients, subject, date, preview and content;</li>
       <li>search your mail when you ask it to: what you type goes to Gmail's own search, and the messages it finds are shown the same way;</li>
+      <li>save the emails you write as drafts in your Gmail Drafts while you write them, open your drafts, and delete a draft when you discard it;</li>
+      <li>send the emails you write when you click <strong>Send</strong>: new messages, replies and forwards, with the files you attach, and when forwarding, the email's own files;</li>
+      <li>read the name your Gmail settings give your address (Send mail as), to show it with your address on the emails you send;</li>
       <li>mark a message as read when you open it, and as read or unread when you ask it to;</li>
       <li>archive a message, move it to Trash, or move it back out (Undo, Move to Inbox), when you ask it to;</li>
       <li>get notified when your Inbox changes (over IMAP), so new mail appears right away;</li>
       <li>read your email address, to label the account in the app.</li>
     </ul>
     <p>
-      The app does not send email, permanently delete email, or change your Gmail settings.
+      The app sends email only when you click Send. It does not permanently delete email, except drafts you discard or send, and it does not change your Gmail settings.
       Google requires the full Gmail permission for IMAP notifications, which is why its consent
       screen lists more than the app uses.
     </p>
@@ -63,12 +66,13 @@
     <ul>
       <li><strong>Sign-in tokens</strong>: in your operating system's secure storage
         (Windows Credential Manager or macOS Keychain).</li>
-      <li><strong>Your list of accounts</strong> and a <strong>copy of the Inbox, All Mail and Trash lists</strong>
-        (sender, subject, preview, date, read state, whether it has attachments), in the app's data folder, so the
+      <li><strong>Your list of accounts</strong> and a <strong>copy of the Inbox, Sent, Drafts, All Mail and Trash lists</strong>
+        (sender, recipients, subject, preview, date, read state, whether it has attachments), in the app's data folder, so the
         app can open instantly.</li>
       <li><strong>Message content is not saved.</strong> It is downloaded from Google each time you open a message.
         The exception is an attachment you choose to save: it goes to your Downloads folder and stays there like any
         other download.</li>
+      <li><strong>Emails you write</strong> are saved in your Gmail Drafts, not on your computer.</li>
       <li><strong>Notifications</strong> about new mail show its sender and subject. Windows and macOS keep recent
         notifications in their notification center until you clear them.</li>
     </ul>
