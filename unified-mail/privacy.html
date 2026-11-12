@@ -11,7 +11,7 @@
   <main>
     <p class="crumb"><a href="./">Unified Mail</a></p>
     <h1>Privacy Policy</h1>
-    <p class="muted">Effective November 12, 2026</p>
+    <p class="muted">Effective November 13, 2026</p>
 
     <p class="lead">
       Unified Mail is a desktop email program for Gmail that runs entirely on your computer.
@@ -73,6 +73,8 @@
       <li><strong>Message content is not saved.</strong> It is downloaded from Google each time you open a message.
         The exception is an attachment you choose to save: it goes to your Downloads folder and stays there like any
         other download.</li>
+      <li><strong>Pictures and fonts</strong> that an email loads from other websites are kept in the cache of the
+        system's web view (WebKit on macOS, WebView2 on Windows), as a web browser keeps them.</li>
       <li><strong>Emails you write</strong> are saved in your Gmail Drafts, not on your computer.</li>
       <li><strong>Notifications</strong> about new mail show its sender and subject. Windows and macOS keep recent
         notifications in their notification center until you clear them.</li>
@@ -92,14 +94,18 @@
 
     <h2>Your choices and deleting your data</h2>
     <ul>
-      <li><strong>Remove an account</strong> in the app's Settings. This revokes the app's access at Google and
-        deletes that account's sign-in token and cached message lists from your computer.</li>
-      <li>You can revoke access at any time in your Google Account at
+      <li><strong>Remove an account</strong> in the app's Settings. This deletes that account's sign-in token and
+        cached message lists from this computer. It doesn't revoke the app's access at Google, so Unified Mail on your
+        other computers stays signed in.</li>
+      <li>You can revoke access, on all your computers at once, at any time in your Google Account at
         <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
       <li>To remove everything, uninstall the app and delete its data folder:
         <code>%APPDATA%\com.andeliseev.unified-mail</code> on Windows, or
         <code>~/Library/Application Support/com.andeliseev.unified-mail</code> on macOS
-        (<code>io.unifiedmail.desktop</code> in versions up to 0.1.11).</li>
+        (<code>io.unifiedmail.desktop</code> in versions up to 0.1.11). The web view's cache is in
+        <code>%LOCALAPPDATA%\com.andeliseev.unified-mail</code> on Windows, and in
+        <code>~/Library/Caches/com.andeliseev.unified-mail</code> and
+        <code>~/Library/WebKit/com.andeliseev.unified-mail</code> on macOS.</li>
     </ul>
 
     <h2>Children</h2>
