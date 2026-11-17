@@ -7,6 +7,7 @@ The public website, served by GitHub Pages from `main` as it is. What's here and
 - Plain HTML and CSS: no framework, build step or script libraries. Keep `.nojekyll`.
 - Every page has light and dark styles (`prefers-color-scheme`) and works at phone width.
 - Each app has its own folder (`unified-mail/`, `torrstream-lite/`, `jazz-guitar-helper/`) with `index.html`, `privacy.html`, `support.html`, `style.css` and `favicon.svg`. Don't move or rename pages: the apps, their READMEs, GitHub's Sponsor buttons and Google's OAuth settings link to them.
+- The root `index.html` (with the root `style.css`) lists the apps: a new app gets a row there and in the README's table.
 - Keep `google6ae5c2a97f179509.html` at the root, unchanged (Google Search Console verification).
 - A privacy policy describes what its app really does. When it changes, update its effective date. The apps' repositories say when to come here: when what an app accesses or keeps changes, when its icon changes (`favicon.svg`), and for TorrStream Lite and Jazz Guitar Helper when their UI changes (their screenshots are rendered in their repos, with `scripts/screenshots/make.py` and `scripts/screenshots.mjs`, and copied here).
 - The support pages list the same payment options; change them all together.

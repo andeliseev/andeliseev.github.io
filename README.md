@@ -1,6 +1,6 @@
 # andeliseev.github.io
 
-The website at <https://andeliseev.github.io/>: the home pages, privacy policies and support pages of my apps. GitHub Pages serves this repository's `main` branch as it is: plain HTML and CSS, with no build step (`.nojekyll` turns off Jekyll).
+The website at <https://andeliseev.github.io/>: the list of my apps (`index.html` and `style.css` at the root), and each app's home page, privacy policy and support page. GitHub Pages serves this repository's `main` branch as it is: plain HTML and CSS, with no build step (`.nojekyll` turns off Jekyll).
 
 | Folder | App | Pages |
 | --- | --- | --- |
