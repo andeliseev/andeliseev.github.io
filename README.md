@@ -6,5 +6,6 @@ The website at <https://andeliseev.github.io/>: the home pages, privacy policies
 | --- | --- | --- |
 | `unified-mail/` | [Unified Mail](https://github.com/andeliseev/unified-mail) | <https://andeliseev.github.io/unified-mail/> |
 | `torrstream-lite/` | [TorrStream Lite](https://github.com/andeliseev/TorrStreamLite) | <https://andeliseev.github.io/torrstream-lite/> |
+| `jazz-guitar-helper/` | [Jazz Guitar Helper](https://github.com/andeliseev/jazz-guitar-helper) | <https://andeliseev.github.io/jazz-guitar-helper/> |
 
 To publish a change, commit it and push `main`. GitHub Pages updates the site within a minute or two.
