@@ -11,7 +11,7 @@
   <main>
     <p class="crumb"><a href="./">Unified Mail</a></p>
     <h1>Privacy Policy</h1>
-    <p class="muted">Effective November 17, 2026</p>
+    <p class="muted">Effective November 18, 2026</p>
 
     <p class="lead">
       Unified Mail is a desktop email program for Gmail that runs entirely on your computer.
@@ -80,6 +80,9 @@
       <li><strong>Emails you write</strong> are saved in your Gmail Drafts, not on your computer.</li>
       <li><strong>Notifications</strong> about new mail show its sender and subject. Windows and macOS keep recent
         notifications in their notification center until you clear them.</li>
+      <li><strong>Opening at sign-in</strong>, if you turn it on in Settings → Startup: an entry that starts the app
+        when you sign in to your computer, in <code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</code>
+        in the Windows registry, or a file in <code>~/Library/LaunchAgents</code> on macOS. Turning it off removes it.</li>
     </ul>
 
     <h2>How data is shared</h2>
@@ -101,7 +104,7 @@
         other computers stays signed in.</li>
       <li>You can revoke access, on all your computers at once, at any time in your Google Account at
         <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
-      <li>To remove everything, uninstall the app and delete its data folder:
+      <li>To remove everything, turn off opening at sign-in in Settings → Startup, then uninstall the app and delete its data folder:
         <code>%APPDATA%\com.andeliseev.unified-mail</code> on Windows, or
         <code>~/Library/Application Support/com.andeliseev.unified-mail</code> on macOS
         (<code>io.unifiedmail.desktop</code> in versions up to 0.1.11). The web view's cache is in
